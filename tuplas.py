@@ -11,6 +11,7 @@ for i in range(len(tupla)):
 for valor in tupla:
     print(valor)
 
+
 lista_temp = list(tupla)
 lista_temp[2] = 9
 tupla = tuple(lista_temp)
