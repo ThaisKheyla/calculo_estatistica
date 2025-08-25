@@ -18,7 +18,6 @@ while True:
 
     with open(arquivo_csv, "a") as f:
 
-                # giuliana,2025-08-18 10:00:10,40.1,63.0,50.2
         f.write(f"{user}, {agora},{uso_cpu},{uso_ram},{uso_disco}\n")
 
     print(f"{user} {agora} cpu: {uso_cpu}% ram: {uso_ram}% disco: {uso_disco}%")
